@@ -4,6 +4,7 @@ HP Test Task
 Task 1 (back and front folders).
 
 BACK: Nodejs, Express, TS, Jest
+
 FRONT: Vue3, TS, Vite, Pinia, Vuetify-3, Vitest
 
 Link for a first task: https://hp-test-front.herokuapp.com/ (takes a while to build & show)
