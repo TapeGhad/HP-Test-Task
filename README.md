@@ -12,10 +12,12 @@ Link for a first task: https://hp-test-front.herokuapp.com/ (takes a while to bu
 Task 2 (review)
 
 Q/A
-1. Used var (old type, let or const prefered to use). Lack of destruction. To much callbacks used, makes code unreadable.
-2. If there is no shopId in request, would be exeption in `Shop.findById`. Same with invitationBody, it should be checked before sending it to another API via `superagent`
+1. Used var (old type, let or const prefered to use). Lack of destruction. To much callbacks (callback hell) used, makes code unreadable.
+2. If there is no shopId in request, would be exeption in `Shop.findById`. Same with invitationBody, it should be checked before sending it to another API via `superagent`.
 3. - Minimum use of callbacks, async/await can help in some places.
 	- Add checks and move some logic to separate functions.
 	- Add checks to avoid exceptions
+	- Replace repeated long object fields
 	- Return either required data or errors, no empty return.
-4. Spread (...) operator can be used. Let - Const. Arrow Functions. Async Await
+4. Destruction. Let - Const. Arrow Functions. Async Await. Exception checks. Avoid callback hell
+Possible refactor shown in Refactor.js file 
