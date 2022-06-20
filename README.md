@@ -20,4 +20,5 @@ Q/A
 	- Replace repeated long object fields
 	- Return either required data or errors, no empty return.
 4. Destruction. Let - Const. Arrow Functions. Async Await. Exception checks. Avoid callback hell
+
 Possible refactor shown in Refactor.js file 
