@@ -7,7 +7,7 @@ BACK: Nodejs, Express, TS, Jest
 
 FRONT: Vue3, TS, Vite, Pinia, Vuetify-3, Vitest
 
-Link for a first task: https://hp-test-front.herokuapp.com/ (takes a while to build & show)
+Link for a first task: https://hp-test-front.herokuapp.com/ (takes a while to build & show firstly)
 ![image](https://user-images.githubusercontent.com/61677623/174615917-b7a981af-7e8a-423a-900a-159759dbb0b9.png)
 
 Task 2 (review)
