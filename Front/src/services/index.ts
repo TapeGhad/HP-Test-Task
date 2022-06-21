@@ -1,7 +1,7 @@
 import type { Album } from '@/types';
 import axios, { AxiosResponse } from 'axios';
 
-const backUrl = 'https://hp-test-back.herokuapp.com/api';
+const backUrl = `${import.meta.env.VITE_APP_BACK_URL}/api`;
 
 export const getAlbums = async (artist: string): Promise<AxiosResponse<Album[]>> => {
 	const url = `${backUrl}/albums?artist=${artist}`;
